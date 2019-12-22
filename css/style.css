@@ -1,0 +1,153 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding:0;
+  margin:0;
+  background-color:#ffffff;
+  font-style: normal;
+}
+
+/* Global*/
+.container{
+  width:100%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:20;
+  padding:0;
+}
+
+/*Header*/
+header{
+  background:#ffffff;
+  color:#000000;
+  padding-top:30px;
+  min-height:50px;
+}
+
+header a{
+  color:#000000;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+header li{
+  float: left;
+  display: inline;
+  padding: 20 20 20 20;
+}
+header #branding{
+  float:left;
+  margin-top: 10px;
+}
+header #branding h1{
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-left: 50px;
+}
+header nav{
+  float:right;
+  margin-top:10px;
+  margin-right: 50px;
+}
+header .current a{
+  color:#A3BBBB;
+}
+header a:hover{
+  color:##A3BBBB;
+}
+
+/*showcase*/
+#showcase{
+  min-height:700px;
+  background:url('../img/header.jpg') no-repeat 0 -1000px;
+  text-align:center;
+  color:#000000
+}
+
+#showcase {
+  min-height: 700px;
+  background: #F0F7F7;
+  color: #000000;
+  text-align: center;
+}
+
+#showcase h1{
+  margin-top: 200px;
+  font-size:45px;
+  margin-bottom:-30px;
+  margin-left: 600px;
+  letter-spacing: 12px;
+  font-family: 'Raleway', sans-serif;
+  text-transform: lowercase;
+}
+#showcase h2{
+  margin-left:600px;
+  font-size:25px;
+  margin-bottom: 100px;
+}
+#showcase p{
+  margin-left: 600px;
+  font-size: 22px;
+  line-height: 130%;
+  font-style: italic;
+  margin-bottom: 200px;
+}
+
+/*contact*/
+#contact {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+#contact h1{
+  font-size: 22px;
+  font-style: italic;
+  text-decoration:underline;
+  font-family: times;
+}
+#contact a{
+  text-decoration: none;
+  color: #000000;
+  font-size: 25px;
+}
+
+/*footer*/
+footer{
+  padding: 20px;
+  margin-top:20px;
+  color: #000000;
+  background-color:#ffffff;
+  text-align: center;
+  font-size: 15px;
+  font-family: times;
+  font-style: italic;
+}
+
+/*portfolio*/
+#portfolio {
+  font-size: 50px;
+  text-align: center;
+  font-style:italic;
+  margin-bottom: -75px;
+  font-family: times
+}
+mark {
+  background:#F0F7F7;
+  color: #000000;
+}
+
+/*gallery*/
+#gallery {
+  text-align: center;
+  font-size: 20px;
+}
+#gallery .projects{
+  margin-top: 100px;
+}
+#gallery .projects img{
+  width: 100%;
+}

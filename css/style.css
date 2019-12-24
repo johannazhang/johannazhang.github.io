@@ -57,16 +57,10 @@ header .current a{
   color:#A3BBBB;
 }
 header a:hover{
-  color:##A3BBBB;
+  color:#A3BBBB;
 }
 
 /*showcase*/
-#showcase{
-  min-height:700px;
-  background:url('../img/header.jpg') no-repeat 0 -1000px;
-  text-align:center;
-  color:#000000
-}
 
 #showcase {
   min-height: 700px;

@@ -63,14 +63,14 @@ header a:hover{
 /*showcase*/
 
 #showcase {
-  min-height: 700px;
+  max-height: 600px;
   background: #F0F7F7;
   color: #000000;
   text-align: center;
 }
 
 #showcase h1{
-  margin-top: 200px;
+  margin-top: 150px;
   font-size:45px;
   margin-bottom:-30px;
   margin-left: 600px;
@@ -88,7 +88,15 @@ header a:hover{
   font-size: 22px;
   line-height: 130%;
   font-style: italic;
-  margin-bottom: 200px;
+  margin-bottom: 150px;
+}
+
+.img-banner {
+  width: 50%;
+  float: left;
+  max-height: 600px;
+  height: auto;
+  object-fit: cover
 }
 
 /*contact*/
@@ -144,4 +152,81 @@ mark {
 }
 #gallery .projects img{
   width: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .img-banner{
+    width: 100%;
+    height:auto;
+    /* object-fit: cover; */
+  }
+  #showcase {
+    min-height: 1000px;
+    background: #F0F7F7;
+    color: #000000;
+    text-align: center;
+  }
+  #showcase h1{
+    margin-top: 700px;
+    font-size: 45px;
+    margin-bottom:-30px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 12px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: lowercase;
+  }
+  #showcase h2{
+    margin-left: auto;
+    margin-right: auto;
+    font-size:25px;
+    margin-bottom: 50px;
+  }
+  #showcase p{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+    line-height: 130%;
+    font-style: italic;
+    margin-bottom: 200px;
+  }
+}
+@media only screen and (max-width: 550px){
+  #showcase {
+    min-height: 750px;
+    background: #F0F7F7;
+    color: #000000;
+    text-align: center;
+  }
+  #showcase h1{
+    margin-top: 450px;
+    font-size: 35px;
+    margin-bottom:-30px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 6px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: lowercase;
+  }
+  #showcase h2{
+    margin-left: auto;
+    margin-right: auto;
+    font-size:20px;
+    margin-bottom: 50px;
+  }
+  #showcase p{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    line-height: 130%;
+    font-style: italic;
+    margin-bottom: 200px;
+  }
+  header #branding{
+    display:none;
+  }
+  header nav{
+    float:right;
+    margin-top:10px;
+    margin-right: 20px;
 }

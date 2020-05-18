@@ -154,6 +154,7 @@ mark {
   width: 100%;
 }
 
+
 @media only screen and (max-width: 1200px) {
   .img-banner{
     width: 100%;
@@ -189,6 +190,10 @@ mark {
     line-height: 130%;
     font-style: italic;
     margin-bottom: 200px;
+  }
+  video{
+    width:100%;
+    height: auto;
   }
 }
 @media only screen and (max-width: 550px){
@@ -229,4 +234,9 @@ mark {
     float:right;
     margin-top:10px;
     margin-right: 20px;
+  }
+  video{
+    width:100%;
+    height: auto;
+  }
 }

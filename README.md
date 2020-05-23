@@ -1,2 +1,2 @@
-# johannazhang.github.io
-portfolio website
+# johannazhang portfolio
+a portfolio/personal website containing design projects and photography

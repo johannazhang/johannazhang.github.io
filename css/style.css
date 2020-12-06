@@ -72,7 +72,7 @@ header a:hover{
 #showcase h1{
   margin-top: 150px;
   font-size:45px;
-  margin-bottom:-30px;
+  margin-bottom:-10px;
   margin-left: 600px;
   letter-spacing: 12px;
   font-family: 'Raleway', sans-serif;
@@ -80,16 +80,19 @@ header a:hover{
 }
 #showcase h2{
   margin-left:600px;
-  font-size: 25px;
+  font-size: 21px;
   margin-bottom: 80px;
+  /* font-style: italic; */
 
 }
 #showcase p{
   margin-left: 600px;
-  font-size: 22px;
+  font-size: 19px;
   line-height: 130%;
-  font-style: italic;
+  /* font-style: italic; */
   margin-bottom: 150px;
+  color: #424242;
+
 }
 
 .img-banner {
@@ -173,7 +176,7 @@ mark {
   #showcase h1{
     margin-top: 700px;
     font-size: 45px;
-    margin-bottom:-30px;
+    margin-bottom:-10px;
     margin-left: auto;
     margin-right: auto;
     letter-spacing: 12px;
@@ -183,15 +186,15 @@ mark {
   #showcase h2{
     margin-left: auto;
     margin-right: auto;
-    font-size:25px;
+    font-size:21px;
     margin-bottom: 50px;
   }
   #showcase p{
     margin-left: auto;
     margin-right: auto;
-    font-size: 22px;
+    font-size: 19px;
     line-height: 130%;
-    font-style: italic;
+    /* font-style: italic; */
     margin-bottom: 200px;
   }
   video{
@@ -213,7 +216,7 @@ mark {
   #showcase h1{
     margin-top: 450px;
     font-size: 35px;
-    margin-bottom:-30px;
+    margin-bottom:-10px;
     margin-left: auto;
     margin-right: auto;
     letter-spacing: 6px;
@@ -223,15 +226,15 @@ mark {
   #showcase h2{
     margin-left: auto;
     margin-right: auto;
-    font-size:20px;
+    font-size:16.5px;
     margin-bottom: 50px;
   }
   #showcase p{
     margin-left: auto;
     margin-right: auto;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 130%;
-    font-style: italic;
+    /* font-style: italic; */
     margin-bottom: 200px;
   }
   header #branding{

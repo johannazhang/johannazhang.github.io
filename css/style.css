@@ -236,6 +236,7 @@ mark {
     line-height: 130%;
     /* font-style: italic; */
     margin-bottom: 200px;
+    color: black;
   }
   header #branding{
     display:none;

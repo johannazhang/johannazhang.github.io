@@ -38,11 +38,8 @@
               <p>
                 Based in Vancouver and Toronto
                 <span style="color:lightslategrey;">&#9790;</span>
-                <!-- <span style="color:lightslategrey;">&#9729;</span> -->
-                <!-- <span style='font-size:16px;'>&#127747;</span> -->
                 <br>Studying Computer Science & Human Geography at UofT
                 <br>Interested in films, art, photography, exploring & travelling
-                <!-- <span style='font-size:21px;color:lightslategrey;'>&#9992;</span> -->
               </p>
             </div>
     </section>
@@ -58,7 +55,12 @@
       </div>
     </section>
     <footer>
-      <p>&copy; 2020 by Johanna Zhang</p>
+      <p>&copy; <span id="date"></span> by Johanna Zhang
+        <script>
+          const date = document.getElementById('date');
+          date.innerHTML = new Date().getFullYear();
+        </script>
+      </p>
     </footer>
   </body>
 </html>

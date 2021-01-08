@@ -43,12 +43,6 @@
           <img src="./img/cover final.png">
           <p>Cover of a magazine</p>
         </div>
-        <!-- <div class="projects">
-          <video width="760.5" height="570" controls loop>
-            <source src="./img/calendar.mp4" type="video/mp4">
-          </video>
-          <p>iPad calendar app</p>
-        </div> -->
         <div class="projects">
           <img src="./img/photo journal 1.png">
           <img src="./img/photo journal 2.png">
@@ -58,18 +52,6 @@
           <img src="./img/movie poster final.png">
           <p>Movie poster for <i>The Shawshank Redemption</i></p>
         </div>
-        <!-- <div class="projects">
-          <img src="./img/new years editorial.png">
-          <p>New Years editorial collage</p>
-        </div> -->
-        <!-- <div class="projects">
-          <img src="./img/magazine spreads.png">
-          <p>Magazine spreads</p>
-        </div> -->
-        <!-- <div class="projects">
-          <img src="./img/minimal editorial.png">
-          <p>Minimal magazine spread</p>
-        </div> -->
         <div class="projects">
           <img src="./img/business final.png">
           <img src="./img/menu final.png">
@@ -98,7 +80,12 @@
       </div>
     </section>
     <footer>
-      <p>&copy; 2020 by Johanna Zhang</p>
+      <p>&copy; <span id="date"></span> by Johanna Zhang
+        <script>
+          const date = document.getElementById('date');
+          date.innerHTML = new Date().getFullYear();
+        </script>
+      </p>
     </footer>
   </body>
 </html>
